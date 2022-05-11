@@ -47,6 +47,17 @@ pipelines:
       inputs: []
       outputs: []
     dependencies: {}
+  pipelines/W1:
+    name: W1
+    description: Really solid info
+    author: beverley.labadie@yahoo.com
+    mode: batch
+    language: scala
+    createdAt: '2022-05-11 05:52:13'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
   workflows/Mary_Rath_MD:
     name: Mary_Rath_MD
     description: ''
@@ -81,7 +92,24 @@ pipelines:
       outputs: []
     dependencies: {}
 datasets: {}
-jobs: {}
+jobs:
+  jobs/Johnson_ZiemannPepe_C__ColaDamion_Kiehn:
+    name: Johnson_ZiemannPepe_C__ColaDamion_Kiehn
+    description: Really solid info
+    fabricUID: null
+    scheduler: null
+    jobSize: null
+    scheduleCron: null
+    timeout: null
+    alerting:
+      emails: ''
+      onStart: false
+      onSuccess: false
+      onFailure: false
+    pipelines: []
+    enabled: null
+    createdAt: '2022-05-11 05:52:13'
+    author: beverley.labadie@yahoo.com
 libraries: []
 subgraphs: {}
 dependencies: '[]'
